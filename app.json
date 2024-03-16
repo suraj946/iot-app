@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "schedulerApp",
-    "slug": "schedulerApp",
+    "name": "Ring Rong",
+    "slug": "ringrong",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#D9D9D9"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#D9D9D9"
+      },
+      "package": "com.skg_suraj.ringrong"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b5fe11d-97ec-45aa-95ca-b0084e98521c"
+      }
     }
   }
 }
